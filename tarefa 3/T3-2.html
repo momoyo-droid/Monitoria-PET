@@ -1,0 +1,20 @@
+<html>
+<script>
+    var resposta_mercearia = prompt("voce frequentava a mercearia de Armenio?");
+    var resposta_desentendimento = prompt("voce possui algum desentendimento com o seu Armenio?");
+    var resposta_carro = prompt("voce reconhece o carro submerso na lagoa?");
+    var resposta_encontrou = prompt("voce encontrou com o seu Armenio nos ultimos 2 dias?");
+
+    if (resposta_mercearia == "nao" && resposta_encontrou == "sim") {
+        alert("SUSPEITO!!!");
+    } else if (resposta_carro == "sim" || resposta_encontrou == "sim") {
+        alert("SUSPEITO!!!");
+    } else if (resposta_desentendimento == "nao") {
+        alert("INOCENTE :)");
+    } else {
+        alert("INOCENTE :)");
+    }
+
+</script>
+
+</html>
