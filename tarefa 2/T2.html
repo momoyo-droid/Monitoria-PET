@@ -1,0 +1,29 @@
+<html>
+<script>
+
+    var pi = 3.14;
+
+    var menor_lado_retangulo = parseInt(prompt("Digite um valor para o menor lado de um retangulo:"));
+    var maior_lado_retangulo = parseInt(prompt("Digite um valor para o maior lado de um retangulo:"));
+
+    var base_triangulo = parseInt(prompt("Digite um valor para a base de um triangulo:"));
+    var altura_triangulo = parseInt(prompt("Digite um valor para a altura de um triangulo:"));
+
+    var raio_circulo = parseInt(prompt("Digite um valor para o raio de um circulo:"));
+
+    var area_ret = menor_lado_retangulo * maior_lado_retangulo;
+    var perimetro_ret = 2 * (menor_lado_retangulo + maior_lado_retangulo);
+
+    var area_tri = (base_triangulo * altura_triangulo) / 2;
+    var perimetro_tri = 3 * (base_triangulo);
+
+    var area_circ = pi * (Math.pow(raio_circulo, 2));
+    var perimetro_cir = pi * (2 * raio_circulo);
+
+    console.log("area e perimetro do retangulo: ", area_ret, perimetro_ret);
+    console.log("area e perimetro do triangulo: ", area_tri, perimetro_tri);
+    console.log("area e perimetro do circulo: ", area_circ, perimetro_cir);
+
+</script>
+
+</html>
